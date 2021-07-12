@@ -1,0 +1,52 @@
+body {
+	font-size: 16px;
+	color: white;
+	background-color: rgb(79, 196, 82);
+	font-family: 'Roboto', sans-serif;
+}
+#header-nav {
+	background-color: #3D56C4;
+	border-radius: 0;
+	border:0;
+	color: white;
+}
+.navbar-brand p { 
+	color: white;
+	font-size: 20px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+} 
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #8243d6;
+}
+/* END HEADER */
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+}
+.row{
+	position: relative;
+	float: left;
+}
+.row > div > article {
+	background-color: white;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+/* End Section */
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
+
+
